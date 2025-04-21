@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_game/aniali.dart';
+import 'package:flutter_game/screens/game_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -10,6 +10,6 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: const AniAliHome());
+    return MaterialApp(home: const GameScreen());
   }
 }
